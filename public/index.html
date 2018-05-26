@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dr. Amigo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+  />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+  />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://afeld.github.io/emoji-css/emoji.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="#" class="brand-logo center">Dr. Amigo</a>
+  </nav>
+  
+<div class="chat animated fadeInUp">
+  <div class="chat_head">
+    <h5>Chatbot</h5>
+  </div>
+  <div class="chat_body">
+    <div class="chat_user">
+      <div class="chip">
+        <p class="state"></p>
+        <img src="https://cdn2.iconfinder.com/data/icons/professions/512/doctor_assistant-512.png" alt="profile">
+        <strong>
+          Dr. Amigo
+          <i class="em em-yum"></i>
+        </strong>
+        <p>online</p>
+      </div>
+      <hr>
+      <div class="chat_msg">
+        <ul class="collection">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="chat_foot">
+    <!-- <input type="text" placeholder=""> -->
+    <input id="textInput" class="" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)">
+    <i class="material-icons send">send</i>
+    <div class="chat_emojis animated fadeIn">
+
+    </div>
+  </div>
+</div>
+
+  <script src="js/common.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/conversation.js"></script>
+  <!-- <script src="js/payload.js"></script> -->
+  <script src="js/global.js"></script>
+  <!-- <script src="js/analytics.js"></script> -->
+
+  <script>
+    $(document).ready(function(){
+      $('.send').click(function () {
+        if($('#textInput').val() != ''){
+
+          var e = jQuery.Event("keydown");
+          e.which = 50; // # Some key code value
+          $("#textInput'").trigger(e)
+        }
+      });
+    })
+      
+  </script>
+</main>
+
+</body>
+
+</html>

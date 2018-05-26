@@ -1,0 +1,960 @@
+{
+    "name": "Dr Amigo",
+    "intents": [
+        {
+            "intent": "virose",
+            "examples": [
+                {
+                    "text": "vomito"
+                },
+                {
+                    "text": "diarreia"
+                },
+                {
+                    "text": "nariz escorrendo"
+                },
+                {
+                    "text": "mal estar"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "General_Security_Assurance",
+            "examples": [
+                {
+                    "text": "Como eu posso saber que essa conversa não é um golpe?"
+                },
+                {
+                    "text": "Como impedir o acesso não autorizado à minha conta?"
+                },
+                {
+                    "text": "Esse chat é oficial?"
+                },
+                {
+                    "text": "Este é um site de bate-papo confiável?"
+                },
+                {
+                    "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+                },
+                {
+                    "text": "Eu preciso de uma garantia."
+                },
+                {
+                    "text": "O meu dispositivo está protegido?"
+                },
+                {
+                    "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+                },
+                {
+                    "text": "Você me ajudaria a manter minhas informações seguras?"
+                },
+                {
+                    "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+                },
+                {
+                    "text": "Você pode garantir a privacidade desta conversa?"
+                },
+                {
+                    "text": "Você está a salvo de hackers/pirata informáticos?"
+                },
+                {
+                    "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+                },
+                {
+                    "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+                },
+                {
+                    "text": "Posso passar informações confidenciais aqui?"
+                },
+                {
+                    "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+                },
+                {
+                    "text": "Nossa comunicação é privada?"
+                },
+                {
+                    "text": "Onde posso encontrar seu certificado de segurança?"
+                },
+                {
+                    "text": "Os dados dessa conversa são armazenados com segurança?"
+                },
+                {
+                    "text": "O que você faz pela segurança de seus clientes?"
+                },
+                {
+                    "text": "Como posso obter informações de perda?"
+                },
+                {
+                    "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+                },
+                {
+                    "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+                }
+            ],
+            "description": "Exprima preocupações sobre a segurança do robô."
+        },
+        {
+            "intent": "General_Negative_Feedback",
+            "examples": [
+                {
+                    "text": "Você está me entediando."
+                },
+                {
+                    "text": "Você é chato?"
+                },
+                {
+                    "text": "Vá se foder!"
+                },
+                {
+                    "text": "Vá para o inferno!"
+                },
+                {
+                    "text": "Vá para a puta que pariu!"
+                },
+                {
+                    "text": "Você é ruim mesmo?"
+                },
+                {
+                    "text": "Você não vale nada."
+                },
+                {
+                    "text": "Você está fora de si?"
+                },
+                {
+                    "text": "Você é espertinho?"
+                },
+                {
+                    "text": "Você é burro."
+                },
+                {
+                    "text": "Uma experiência horrível, com certeza!"
+                },
+                {
+                    "text": "Todo mundo te odeia."
+                },
+                {
+                    "text": "Tchau, vagabunda."
+                },
+                {
+                    "text": "Sua mãe."
+                },
+                {
+                    "text": "Seja bom uma vez na vida."
+                },
+                {
+                    "text": "Porra, como posso falar com uma pessoa real?"
+                },
+                {
+                    "text": "Por que você é retardado?"
+                },
+                {
+                    "text": "Você é uma piada?"
+                }
+            ],
+            "description": "Expresse feedback desfavorável."
+        },
+        {
+            "intent": "General_Greetings",
+            "examples": [
+                {
+                    "text": "Como estão as coisas aí?"
+                },
+                {
+                    "text": "Olá, pode me ajudar?"
+                },
+                {
+                    "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+                },
+                {
+                    "text": "Bom dia, como você está?"
+                },
+                {
+                    "text": "Eu gostaria de conversar com o Watson."
+                },
+                {
+                    "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+                },
+                {
+                    "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+                },
+                {
+                    "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+                },
+                {
+                    "text": "Boa tarde , você está ai?"
+                },
+                {
+                    "text": "Ei, você está aí?"
+                }
+            ],
+            "description": "Cumprimente o robô."
+        },
+        {
+            "intent": "febreamarela",
+            "examples": [
+                {
+                    "text": "febre"
+                },
+                {
+                    "text": "calafrios"
+                },
+                {
+                    "text": "fadiga"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "casos",
+            "examples": [
+                {
+                    "text": "passando mal"
+                },
+                {
+                    "text": "estou sentindo"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "diabetes",
+            "examples": [
+                {
+                    "text": "feridas nao cicatrizam"
+                },
+                {
+                    "text": "visao embacada"
+                },
+                {
+                    "text": "fraqueza"
+                },
+                {
+                    "text": "fraco"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "General_Connect_to_Agent",
+            "examples": [
+                {
+                    "text": "Eu quero tentar o seu agente virtual."
+                },
+                {
+                    "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+                },
+                {
+                    "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+                },
+                {
+                    "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+                },
+                {
+                    "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+                },
+                {
+                    "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+                },
+                {
+                    "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+                },
+                {
+                    "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+                },
+                {
+                    "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+                },
+                {
+                    "text": "Posso falar com um agente sobre minha conta"
+                },
+                {
+                    "text": "Posso ter informações de contato para falar com um agente ao vivo."
+                },
+                {
+                    "text": "Preciso contatar a um atendente"
+                },
+                {
+                    "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+                },
+                {
+                    "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+                },
+                {
+                    "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+                },
+                {
+                    "text": "Quero falar com alguém de outra área."
+                },
+                {
+                    "text": "Você pode me conectar com uma pessoa real?"
+                },
+                {
+                    "text": "Pode me provar que é um representante?"
+                },
+                {
+                    "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+                },
+                {
+                    "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+                }
+            ],
+            "description": "Solicite um agente humano."
+        },
+        {
+            "intent": "General_Agent_Capabilities",
+            "examples": [
+                {
+                    "text": "Continue esperando por favor"
+                },
+                {
+                    "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+                },
+                {
+                    "text": "Eu gostaria de saber como você pode me ajudar"
+                },
+                {
+                    "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+                },
+                {
+                    "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+                },
+                {
+                    "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+                },
+                {
+                    "text": "O que você pode fazer para me ajudar"
+                },
+                {
+                    "text": "Posso verificar quais opções estão disponíveis com o agente?"
+                },
+                {
+                    "text": "Preciso de ajuda geral sobre o agente virtual"
+                },
+                {
+                    "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+                },
+                {
+                    "text": "Qual ajuda você pode fornecer?"
+                },
+                {
+                    "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+                },
+                {
+                    "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+                },
+                {
+                    "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+                },
+                {
+                    "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+                },
+                {
+                    "text": "Você pode responder uma pergunta frequente sobre o agente?"
+                },
+                {
+                    "text": "O que você mais gosta de fazer?"
+                },
+                {
+                    "text": "Ajude-me a ler o medidor e registrar o uso"
+                },
+                {
+                    "text": "Quem pode me ajudar a realizar meu pedido."
+                }
+            ],
+            "description": "Solicite recursos de robô."
+        },
+        {
+            "intent": "General_Positive_Feedback",
+            "examples": [
+                {
+                    "text": "Ótimo!"
+                },
+                {
+                    "text": "Genial! Isso é exatamente o que eu pensei."
+                },
+                {
+                    "text": "Muito bom, obrigado."
+                },
+                {
+                    "text": "Espero trabalhar com você novamente."
+                },
+                {
+                    "text": "Estou impressionado com você."
+                },
+                {
+                    "text": "Estou pegando a manha disso."
+                },
+                {
+                    "text": "Eu gostei do que você fez aí."
+                },
+                {
+                    "text": "Gostei muito do seu trabalho."
+                },
+                {
+                    "text": "Incrível como você é bom!"
+                },
+                {
+                    "text": "Isso é divertido."
+                },
+                {
+                    "text": "Isso é muito legal."
+                },
+                {
+                    "text": "Muito inteligente."
+                },
+                {
+                    "text": "É muito louco o que um robô pode fazer."
+                },
+                {
+                    "text": "Muito obrigado."
+                },
+                {
+                    "text": "Você é adorável."
+                },
+                {
+                    "text": "Você é demais."
+                },
+                {
+                    "text": "Você detonou."
+                },
+                {
+                    "text": "Você é inteligente."
+                },
+                {
+                    "text": "Você é legal."
+                },
+                {
+                    "text": "Você me deu exatamente o que eu precisava."
+                },
+                {
+                    "text": "Você é o cara."
+                }
+            ],
+            "description": "Exprima sentimento positivo ou gratidão."
+        },
+        {
+            "intent": "General_Human_or_Bot",
+            "examples": [
+                {
+                    "text": "Você é real, pelo menos?"
+                },
+                {
+                    "text": "Você é real?"
+                },
+                {
+                    "text": "Você pode ser honesto comigo?"
+                },
+                {
+                    "text": "Você é humano?"
+                },
+                {
+                    "text": "Quem é você, realmente?"
+                },
+                {
+                    "text": "Quem é você?"
+                },
+                {
+                    "text": "Isso é um computador?"
+                },
+                {
+                    "text": "Eu estou conversando com o Watson?"
+                },
+                {
+                    "text": "Estou conversando com um robô?"
+                },
+                {
+                    "text": "Estou conversando com um humano?"
+                },
+                {
+                    "text": "Estou conversando com uma pessoa ou com uma IA?"
+                },
+                {
+                    "text": "Diga-me, você é humano ou não?"
+                },
+                {
+                    "text": "Com quem estou falando?"
+                },
+                {
+                    "text": "Como você pode provar que é humano?"
+                },
+                {
+                    "text": "Como eu posso conversar com o Watson?"
+                },
+                {
+                    "text": "Você é uma pessoa real ou um robô?"
+                },
+                {
+                    "text": "Você é um humano ou um robô?"
+                },
+                {
+                    "text": "Você é um homem ou uma mulher?"
+                }
+            ],
+            "description": "Pergunte se está falando com um humano ou um robô."
+        },
+        {
+            "intent": "General_About_You",
+            "examples": [
+                {
+                    "text": "Quais são os seus apelidos?"
+                },
+                {
+                    "text": "Quero configurar saudações aqui."
+                },
+                {
+                    "text": "Quero entender como você trabalha."
+                },
+                {
+                    "text": "Quero o documento de requisitos do sistema para esse agente."
+                },
+                {
+                    "text": "Você fala Francês?"
+                },
+                {
+                    "text": "Você sabe quem você é?"
+                },
+                {
+                    "text": "Me diga três coisas sobre você."
+                },
+                {
+                    "text": "Este agente foi construído usando processamento de linguagem natural?"
+                },
+                {
+                    "text": "Como você se descreve?"
+                },
+                {
+                    "text": "Você tem um nome?"
+                },
+                {
+                    "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+                },
+                {
+                    "text": "Eu preciso da informação sobre o preço do Watson."
+                },
+                {
+                    "text": "Há quanto tempo você tem desempenhado essa função?"
+                },
+                {
+                    "text": "Qual a sua idade?"
+                }
+            ],
+            "description": "Solicite atributos pessoais genéricos."
+        },
+        {
+            "intent": "trombose",
+            "examples": [
+                {
+                    "text": "inchaco na perna"
+                },
+                {
+                    "text": "dor intensa na perna"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "General_Jokes",
+            "examples": [
+                {
+                    "text": "Você me entediou."
+                },
+                {
+                    "text": "Você pode cantar para mim?"
+                },
+                {
+                    "text": "Você pode me contar uma piada?"
+                },
+                {
+                    "text": "Você sabe piadas?"
+                },
+                {
+                    "text": "Você tem quaisquer jogos?"
+                },
+                {
+                    "text": "Você tem senso de humor?"
+                },
+                {
+                    "text": "Está se divertindo?"
+                },
+                {
+                    "text": "Conte outra!"
+                },
+                {
+                    "text": "Estou entediado. Entretenha-me!"
+                },
+                {
+                    "text": "Estou entediado."
+                },
+                {
+                    "text": "Eu não sou tedioso, você é."
+                },
+                {
+                    "text": "Me conte mais uma."
+                },
+                {
+                    "text": "O que você faz para se divertir?"
+                },
+                {
+                    "text": "Porque você é enfadonho?"
+                },
+                {
+                    "text": "Qual a sua piada favorita?"
+                },
+                {
+                    "text": "Surpreenda-me com algo hilariante."
+                },
+                {
+                    "text": "Vamos nos divertir!"
+                },
+                {
+                    "text": "Você gosta de contar piadas?"
+                }
+            ],
+            "description": "Peça uma piada."
+        },
+        {
+            "intent": "oi",
+            "examples": [
+                {
+                    "text": "boa noite"
+                },
+                {
+                    "text": "ei"
+                },
+                {
+                    "text": "ola"
+                },
+                {
+                    "text": "boa tarde"
+                },
+                {
+                    "text": "bom dia"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "tchau",
+            "examples": [
+                {
+                    "text": "ate logo"
+                },
+                {
+                    "text": "ate mais"
+                },
+                {
+                    "text": "adeus"
+                },
+                {
+                    "text": "tchau"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "General_Ending",
+            "examples": [
+                {
+                    "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+                },
+                {
+                    "text": "Estou cansado de digitar agora. Obrigado e adeus"
+                },
+                {
+                    "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+                },
+                {
+                    "text": "Com licença, tenho que ir agora"
+                },
+                {
+                    "text": "Vejo você mais tarde."
+                },
+                {
+                    "text": "Ainda não terminou?"
+                },
+                {
+                    "text": "Volto mais tarde."
+                },
+                {
+                    "text": "Tudo bem, eu tenho tudo o que eu precisava"
+                },
+                {
+                    "text": "Vou sair agora. Tchau"
+                },
+                {
+                    "text": "Obrigada, tchau!"
+                },
+                {
+                    "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+                },
+                {
+                    "text": "Me tire daqui."
+                },
+                {
+                    "text": "Falo contigo depois. Tchau"
+                },
+                {
+                    "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+                },
+                {
+                    "text": "Estou indo embora."
+                },
+                {
+                    "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+                },
+                {
+                    "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+                },
+                {
+                    "text": "Ok, isso é tudo que eu preciso para agora."
+                },
+                {
+                    "text": "pare esta sessão agora..Tchau"
+                },
+                {
+                    "text": "Quero encerrar a conversa, obrigado."
+                },
+                {
+                    "text": "Te desejo o melhor de sorte..Tchau"
+                },
+                {
+                    "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+                },
+                {
+                    "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+                }
+            ],
+            "description": "Termine a conversa."
+        },
+        {
+            "intent": "pressaoalta",
+            "examples": [
+                {
+                    "text": "dor de cabeca"
+                },
+                {
+                    "text": "zumbido no ouvido"
+                },
+                {
+                    "text": "sonolencia"
+                }
+            ],
+            "description": null
+        },
+        {
+            "intent": "gravidez",
+            "examples": [
+                {
+                    "text": "tonteira"
+                },
+                {
+                    "text": "inchaco"
+                },
+                {
+                    "text": "sono"
+                },
+                {
+                    "text": "enjoo"
+                }
+            ],
+            "description": null
+        }
+    ],
+    "entities": [],
+    "language": "pt-br",
+    "metadata": {
+        "api_version": {
+            "major_version": "v1",
+            "minor_version": "2017-05-26"
+        }
+    },
+    "description": "Diagnosticos",
+    "dialog_nodes": [
+        {
+            "type": "standard",
+            "title": "Trombose",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sinal de trombose... =( Vá a um médico mais proximo"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527359595756",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#trombose",
+            "description": null,
+            "dialog_node": "node_4_1527360375257",
+            "previous_sibling": "node_3_1527360227851"
+        },
+        {
+            "type": "standard",
+            "title": "Febre amarela",
+            "output": {
+                "text": {
+                    "values": [
+                        "Febre amarela, vá ao medico para melhor diagnóstico!"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527359595756",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#febreamarela",
+            "description": null,
+            "dialog_node": "node_6_1527361252368",
+            "previous_sibling": "node_5_1527360632016"
+        },
+        {
+            "type": "standard",
+            "title": "Diabetes",
+            "output": {
+                "text": {
+                    "values": [
+                        "Procure um médico e solicite exames para verificar a glicose.. pode ser diabetes!"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527359595756",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#diabetes",
+            "description": null,
+            "dialog_node": "node_5_1527360632016",
+            "previous_sibling": "node_4_1527360375257"
+        },
+        {
+            "type": "standard",
+            "title": "Pressao alta",
+            "output": {
+                "text": {
+                    "values": [
+                        "Pode ser pressão alta. Não espere mais, vá a um médico!"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527359595756",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#pressaoalta",
+            "description": null,
+            "dialog_node": "node_7_1527361475675",
+            "previous_sibling": "node_6_1527361252368"
+        },
+        {
+            "type": "standard",
+            "title": "Gravidez",
+            "output": {
+                "text": {
+                    "values": [
+                        "Parabéns mamãe! Provavelmente você está gravida, faça exame de sangue para ter o diagnóstico completo!"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527359595756",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#gravidez",
+            "description": null,
+            "dialog_node": "node_3_1527360227851",
+            "previous_sibling": "node_2_1527360022809"
+        },
+        {
+            "type": "standard",
+            "title": "Virose",
+            "output": {
+                "text": {
+                    "values": [
+                        "Isso é uma virose, daqui 3 dias você melhora! Se não melhorar vá a um médico!"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527359595756",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#virose",
+            "description": null,
+            "dialog_node": "node_2_1527360022809",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Casos",
+            "output": {
+                "text": {
+                    "values": [
+                        "Quais são os sintomas?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "#casos",
+            "description": null,
+            "dialog_node": "node_1_1527359595756",
+            "previous_sibling": "Bem-vindo"
+        },
+        {
+            "type": "standard",
+            "title": "Em outros casos",
+            "output": {
+                "text": {
+                    "values": [
+                        "Eu não entendi. Você pode tentar reformular a frase.",
+                        "Você pode reformular sua afirmação? Eu não estou entendendo.",
+                        "Eu não entendi o sentido."
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "anything_else",
+            "description": null,
+            "dialog_node": "Em outros casos",
+            "previous_sibling": "node_1_1527359595756"
+        },
+        {
+            "type": "standard",
+            "title": "Bem-vindo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Olá, bem vindo ao Dr. Amigo! Como posso ajudar?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "welcome",
+            "description": null,
+            "dialog_node": "Bem-vindo",
+            "previous_sibling": null
+        }
+    ],
+    "workspace_id": "8fe4cf73-d5c4-4f10-9aba-61b362d1f51e",
+    "counterexamples": [],
+    "learning_opt_out": false
+}
