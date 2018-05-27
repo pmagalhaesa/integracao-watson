@@ -2,766 +2,454 @@
     "name": "Dr Amigo",
     "intents": [
         {
-            "intent": "virose",
+            "intent": "gravidez",
             "examples": [
+                {
+                    "text": "sonolência"
+                },
+                {
+                    "text": "manchas na pele"
+                },
+                {
+                    "text": "xixi toda hora"
+                },
+                {
+                    "text": "atraso menstrual"
+                },
+                {
+                    "text": "enjoo"
+                },
                 {
                     "text": "vomito"
-                },
-                {
-                    "text": "diarreia"
-                },
-                {
-                    "text": "nariz escorrendo"
-                },
-                {
-                    "text": "mal estar"
-                }
-            ],
-            "description": null
-        },
-        {
-            "intent": "General_Security_Assurance",
-            "examples": [
-                {
-                    "text": "Como eu posso saber que essa conversa não é um golpe?"
-                },
-                {
-                    "text": "Como impedir o acesso não autorizado à minha conta?"
-                },
-                {
-                    "text": "Esse chat é oficial?"
-                },
-                {
-                    "text": "Este é um site de bate-papo confiável?"
-                },
-                {
-                    "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
-                },
-                {
-                    "text": "Eu preciso de uma garantia."
-                },
-                {
-                    "text": "O meu dispositivo está protegido?"
-                },
-                {
-                    "text": "Existe um documento de perguntas frequentes para este chat-bot?"
-                },
-                {
-                    "text": "Você me ajudaria a manter minhas informações seguras?"
-                },
-                {
-                    "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
-                },
-                {
-                    "text": "Você pode garantir a privacidade desta conversa?"
-                },
-                {
-                    "text": "Você está a salvo de hackers/pirata informáticos?"
-                },
-                {
-                    "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
-                },
-                {
-                    "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
-                },
-                {
-                    "text": "Posso passar informações confidenciais aqui?"
-                },
-                {
-                    "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
-                },
-                {
-                    "text": "Nossa comunicação é privada?"
-                },
-                {
-                    "text": "Onde posso encontrar seu certificado de segurança?"
-                },
-                {
-                    "text": "Os dados dessa conversa são armazenados com segurança?"
-                },
-                {
-                    "text": "O que você faz pela segurança de seus clientes?"
-                },
-                {
-                    "text": "Como posso obter informações de perda?"
-                },
-                {
-                    "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
-                },
-                {
-                    "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
-                }
-            ],
-            "description": "Exprima preocupações sobre a segurança do robô."
-        },
-        {
-            "intent": "General_Negative_Feedback",
-            "examples": [
-                {
-                    "text": "Você está me entediando."
-                },
-                {
-                    "text": "Você é chato?"
-                },
-                {
-                    "text": "Vá se foder!"
-                },
-                {
-                    "text": "Vá para o inferno!"
-                },
-                {
-                    "text": "Vá para a puta que pariu!"
-                },
-                {
-                    "text": "Você é ruim mesmo?"
-                },
-                {
-                    "text": "Você não vale nada."
-                },
-                {
-                    "text": "Você está fora de si?"
-                },
-                {
-                    "text": "Você é espertinho?"
-                },
-                {
-                    "text": "Você é burro."
-                },
-                {
-                    "text": "Uma experiência horrível, com certeza!"
-                },
-                {
-                    "text": "Todo mundo te odeia."
-                },
-                {
-                    "text": "Tchau, vagabunda."
-                },
-                {
-                    "text": "Sua mãe."
-                },
-                {
-                    "text": "Seja bom uma vez na vida."
-                },
-                {
-                    "text": "Porra, como posso falar com uma pessoa real?"
-                },
-                {
-                    "text": "Por que você é retardado?"
-                },
-                {
-                    "text": "Você é uma piada?"
-                }
-            ],
-            "description": "Expresse feedback desfavorável."
-        },
-        {
-            "intent": "General_Greetings",
-            "examples": [
-                {
-                    "text": "Como estão as coisas aí?"
-                },
-                {
-                    "text": "Olá, pode me ajudar?"
-                },
-                {
-                    "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
-                },
-                {
-                    "text": "Bom dia, como você está?"
-                },
-                {
-                    "text": "Eu gostaria de conversar com o Watson."
-                },
-                {
-                    "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
-                },
-                {
-                    "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
-                },
-                {
-                    "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
-                },
-                {
-                    "text": "Boa tarde , você está ai?"
-                },
-                {
-                    "text": "Ei, você está aí?"
-                }
-            ],
-            "description": "Cumprimente o robô."
-        },
-        {
-            "intent": "febreamarela",
-            "examples": [
-                {
-                    "text": "febre"
-                },
-                {
-                    "text": "calafrios"
-                },
-                {
-                    "text": "fadiga"
-                }
-            ],
-            "description": null
-        },
-        {
-            "intent": "casos",
-            "examples": [
-                {
-                    "text": "passando mal"
-                },
-                {
-                    "text": "estou sentindo"
-                }
-            ],
-            "description": null
-        },
-        {
-            "intent": "diabetes",
-            "examples": [
-                {
-                    "text": "feridas nao cicatrizam"
-                },
-                {
-                    "text": "visao embacada"
-                },
-                {
-                    "text": "fraqueza"
-                },
-                {
-                    "text": "fraco"
-                }
-            ],
-            "description": null
-        },
-        {
-            "intent": "General_Connect_to_Agent",
-            "examples": [
-                {
-                    "text": "Eu quero tentar o seu agente virtual."
-                },
-                {
-                    "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
-                },
-                {
-                    "text": "Existe alguém com quem eu posso realmente falar de verdade?"
-                },
-                {
-                    "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
-                },
-                {
-                    "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
-                },
-                {
-                    "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
-                },
-                {
-                    "text": "Por favor me conectar a um agente humano que é fluente em inglês."
-                },
-                {
-                    "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
-                },
-                {
-                    "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
-                },
-                {
-                    "text": "Posso falar com um agente sobre minha conta"
-                },
-                {
-                    "text": "Posso ter informações de contato para falar com um agente ao vivo."
-                },
-                {
-                    "text": "Preciso contatar a um atendente"
-                },
-                {
-                    "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
-                },
-                {
-                    "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
-                },
-                {
-                    "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
-                },
-                {
-                    "text": "Quero falar com alguém de outra área."
-                },
-                {
-                    "text": "Você pode me conectar com uma pessoa real?"
-                },
-                {
-                    "text": "Pode me provar que é um representante?"
-                },
-                {
-                    "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
-                },
-                {
-                    "text": "Eu preciso falar com um representante. Como posso fazer isso?"
-                }
-            ],
-            "description": "Solicite um agente humano."
-        },
-        {
-            "intent": "General_Agent_Capabilities",
-            "examples": [
-                {
-                    "text": "Continue esperando por favor"
-                },
-                {
-                    "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
-                },
-                {
-                    "text": "Eu gostaria de saber como você pode me ajudar"
-                },
-                {
-                    "text": "Eu preciso de ajuda, alguém pode me ajudar?"
-                },
-                {
-                    "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
-                },
-                {
-                    "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
-                },
-                {
-                    "text": "O que você pode fazer para me ajudar"
-                },
-                {
-                    "text": "Posso verificar quais opções estão disponíveis com o agente?"
-                },
-                {
-                    "text": "Preciso de ajuda geral sobre o agente virtual"
-                },
-                {
-                    "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
-                },
-                {
-                    "text": "Qual ajuda você pode fornecer?"
-                },
-                {
-                    "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
-                },
-                {
-                    "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
-                },
-                {
-                    "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
-                },
-                {
-                    "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
-                },
-                {
-                    "text": "Você pode responder uma pergunta frequente sobre o agente?"
-                },
-                {
-                    "text": "O que você mais gosta de fazer?"
-                },
-                {
-                    "text": "Ajude-me a ler o medidor e registrar o uso"
-                },
-                {
-                    "text": "Quem pode me ajudar a realizar meu pedido."
-                }
-            ],
-            "description": "Solicite recursos de robô."
-        },
-        {
-            "intent": "General_Positive_Feedback",
-            "examples": [
-                {
-                    "text": "Ótimo!"
-                },
-                {
-                    "text": "Genial! Isso é exatamente o que eu pensei."
-                },
-                {
-                    "text": "Muito bom, obrigado."
-                },
-                {
-                    "text": "Espero trabalhar com você novamente."
-                },
-                {
-                    "text": "Estou impressionado com você."
-                },
-                {
-                    "text": "Estou pegando a manha disso."
-                },
-                {
-                    "text": "Eu gostei do que você fez aí."
-                },
-                {
-                    "text": "Gostei muito do seu trabalho."
-                },
-                {
-                    "text": "Incrível como você é bom!"
-                },
-                {
-                    "text": "Isso é divertido."
-                },
-                {
-                    "text": "Isso é muito legal."
-                },
-                {
-                    "text": "Muito inteligente."
-                },
-                {
-                    "text": "É muito louco o que um robô pode fazer."
-                },
-                {
-                    "text": "Muito obrigado."
-                },
-                {
-                    "text": "Você é adorável."
-                },
-                {
-                    "text": "Você é demais."
-                },
-                {
-                    "text": "Você detonou."
-                },
-                {
-                    "text": "Você é inteligente."
-                },
-                {
-                    "text": "Você é legal."
-                },
-                {
-                    "text": "Você me deu exatamente o que eu precisava."
-                },
-                {
-                    "text": "Você é o cara."
-                }
-            ],
-            "description": "Exprima sentimento positivo ou gratidão."
-        },
-        {
-            "intent": "General_Human_or_Bot",
-            "examples": [
-                {
-                    "text": "Você é real, pelo menos?"
-                },
-                {
-                    "text": "Você é real?"
-                },
-                {
-                    "text": "Você pode ser honesto comigo?"
-                },
-                {
-                    "text": "Você é humano?"
-                },
-                {
-                    "text": "Quem é você, realmente?"
-                },
-                {
-                    "text": "Quem é você?"
-                },
-                {
-                    "text": "Isso é um computador?"
-                },
-                {
-                    "text": "Eu estou conversando com o Watson?"
-                },
-                {
-                    "text": "Estou conversando com um robô?"
-                },
-                {
-                    "text": "Estou conversando com um humano?"
-                },
-                {
-                    "text": "Estou conversando com uma pessoa ou com uma IA?"
-                },
-                {
-                    "text": "Diga-me, você é humano ou não?"
-                },
-                {
-                    "text": "Com quem estou falando?"
-                },
-                {
-                    "text": "Como você pode provar que é humano?"
-                },
-                {
-                    "text": "Como eu posso conversar com o Watson?"
-                },
-                {
-                    "text": "Você é uma pessoa real ou um robô?"
-                },
-                {
-                    "text": "Você é um humano ou um robô?"
-                },
-                {
-                    "text": "Você é um homem ou uma mulher?"
-                }
-            ],
-            "description": "Pergunte se está falando com um humano ou um robô."
-        },
-        {
-            "intent": "General_About_You",
-            "examples": [
-                {
-                    "text": "Quais são os seus apelidos?"
-                },
-                {
-                    "text": "Quero configurar saudações aqui."
-                },
-                {
-                    "text": "Quero entender como você trabalha."
-                },
-                {
-                    "text": "Quero o documento de requisitos do sistema para esse agente."
-                },
-                {
-                    "text": "Você fala Francês?"
-                },
-                {
-                    "text": "Você sabe quem você é?"
-                },
-                {
-                    "text": "Me diga três coisas sobre você."
-                },
-                {
-                    "text": "Este agente foi construído usando processamento de linguagem natural?"
-                },
-                {
-                    "text": "Como você se descreve?"
-                },
-                {
-                    "text": "Você tem um nome?"
-                },
-                {
-                    "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
-                },
-                {
-                    "text": "Eu preciso da informação sobre o preço do Watson."
-                },
-                {
-                    "text": "Há quanto tempo você tem desempenhado essa função?"
-                },
-                {
-                    "text": "Qual a sua idade?"
-                }
-            ],
-            "description": "Solicite atributos pessoais genéricos."
-        },
-        {
-            "intent": "trombose",
-            "examples": [
-                {
-                    "text": "inchaco na perna"
-                },
-                {
-                    "text": "dor intensa na perna"
-                }
-            ],
-            "description": null
-        },
-        {
-            "intent": "General_Jokes",
-            "examples": [
-                {
-                    "text": "Você me entediou."
-                },
-                {
-                    "text": "Você pode cantar para mim?"
-                },
-                {
-                    "text": "Você pode me contar uma piada?"
-                },
-                {
-                    "text": "Você sabe piadas?"
-                },
-                {
-                    "text": "Você tem quaisquer jogos?"
-                },
-                {
-                    "text": "Você tem senso de humor?"
-                },
-                {
-                    "text": "Está se divertindo?"
-                },
-                {
-                    "text": "Conte outra!"
-                },
-                {
-                    "text": "Estou entediado. Entretenha-me!"
-                },
-                {
-                    "text": "Estou entediado."
-                },
-                {
-                    "text": "Eu não sou tedioso, você é."
-                },
-                {
-                    "text": "Me conte mais uma."
-                },
-                {
-                    "text": "O que você faz para se divertir?"
-                },
-                {
-                    "text": "Porque você é enfadonho?"
-                },
-                {
-                    "text": "Qual a sua piada favorita?"
-                },
-                {
-                    "text": "Surpreenda-me com algo hilariante."
-                },
-                {
-                    "text": "Vamos nos divertir!"
-                },
-                {
-                    "text": "Você gosta de contar piadas?"
-                }
-            ],
-            "description": "Peça uma piada."
-        },
-        {
-            "intent": "oi",
-            "examples": [
-                {
-                    "text": "boa noite"
-                },
-                {
-                    "text": "ei"
-                },
-                {
-                    "text": "ola"
-                },
-                {
-                    "text": "boa tarde"
-                },
-                {
-                    "text": "bom dia"
                 }
             ],
             "description": ""
         },
         {
-            "intent": "tchau",
+            "intent": "asma",
             "examples": [
                 {
-                    "text": "ate logo"
+                    "text": "falta de ar"
                 },
                 {
-                    "text": "ate mais"
+                    "text": "chiado ao respirar"
                 },
                 {
-                    "text": "adeus"
+                    "text": "tosse"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "diabetes",
+            "examples": [
+                {
+                    "text": "visao embacada"
+                },
+                {
+                    "text": "cicatrizacao lenta"
+                },
+                {
+                    "text": "vomito"
+                },
+                {
+                    "text": "xixi toda hora"
+                },
+                {
+                    "text": "perda de peso"
+                },
+                {
+                    "text": "enjoo"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "dengue",
+            "examples": [
+                {
+                    "text": "dor no olho"
+                },
+                {
+                    "text": "mancha na pele"
+                },
+                {
+                    "text": "dor na articulacao"
+                },
+                {
+                    "text": "dor de cabeca"
+                },
+                {
+                    "text": "dor nos ossos"
+                },
+                {
+                    "text": "febre"
+                },
+                {
+                    "text": "enjoo"
+                },
+                {
+                    "text": "vomito"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "gastrite",
+            "examples": [
+                {
+                    "text": "fezes escuras"
+                },
+                {
+                    "text": "enjoo"
+                },
+                {
+                    "text": "dor de cabeca"
+                },
+                {
+                    "text": "emagrecimento"
+                },
+                {
+                    "text": "refluxo"
+                },
+                {
+                    "text": "vomito"
+                },
+                {
+                    "text": "dor no abdomen"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "infeccao_urinaria",
+            "examples": [
+                {
+                    "text": "sangue na urina"
+                },
+                {
+                    "text": "febre"
+                },
+                {
+                    "text": "xixi toda hora"
+                },
+                {
+                    "text": "enjoo"
+                },
+                {
+                    "text": "vomito"
+                },
+                {
+                    "text": "mal cheiro na urina"
+                },
+                {
+                    "text": "dor lombar"
+                },
+                {
+                    "text": "dor para urinr"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "despedida",
+            "examples": [
+                {
+                    "text": "vlw"
+                },
+                {
+                    "text": "valeu"
+                },
+                {
+                    "text": "obrigada"
+                },
+                {
+                    "text": "obrigado"
+                },
+                {
+                    "text": "ok"
                 },
                 {
                     "text": "tchau"
                 }
             ],
             "description": ""
-        },
-        {
-            "intent": "General_Ending",
-            "examples": [
-                {
-                    "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
-                },
-                {
-                    "text": "Estou cansado de digitar agora. Obrigado e adeus"
-                },
-                {
-                    "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
-                },
-                {
-                    "text": "Com licença, tenho que ir agora"
-                },
-                {
-                    "text": "Vejo você mais tarde."
-                },
-                {
-                    "text": "Ainda não terminou?"
-                },
-                {
-                    "text": "Volto mais tarde."
-                },
-                {
-                    "text": "Tudo bem, eu tenho tudo o que eu precisava"
-                },
-                {
-                    "text": "Vou sair agora. Tchau"
-                },
-                {
-                    "text": "Obrigada, tchau!"
-                },
-                {
-                    "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
-                },
-                {
-                    "text": "Me tire daqui."
-                },
-                {
-                    "text": "Falo contigo depois. Tchau"
-                },
-                {
-                    "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
-                },
-                {
-                    "text": "Estou indo embora."
-                },
-                {
-                    "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
-                },
-                {
-                    "text": "Obrigado por responder todas as minhas perguntas. Tchau"
-                },
-                {
-                    "text": "Ok, isso é tudo que eu preciso para agora."
-                },
-                {
-                    "text": "pare esta sessão agora..Tchau"
-                },
-                {
-                    "text": "Quero encerrar a conversa, obrigado."
-                },
-                {
-                    "text": "Te desejo o melhor de sorte..Tchau"
-                },
-                {
-                    "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
-                },
-                {
-                    "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
-                }
-            ],
-            "description": "Termine a conversa."
-        },
-        {
-            "intent": "pressaoalta",
-            "examples": [
-                {
-                    "text": "dor de cabeca"
-                },
-                {
-                    "text": "zumbido no ouvido"
-                },
-                {
-                    "text": "sonolencia"
-                }
-            ],
-            "description": null
-        },
-        {
-            "intent": "gravidez",
-            "examples": [
-                {
-                    "text": "tonteira"
-                },
-                {
-                    "text": "inchaco"
-                },
-                {
-                    "text": "sono"
-                },
-                {
-                    "text": "enjoo"
-                }
-            ],
-            "description": null
         }
     ],
-    "entities": [],
+    "entities": [
+        {
+            "entity": "confirmacao",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "sim",
+                    "metadata": null,
+                    "synonyms": [
+                        "s",
+                        "uhum",
+                        "aham"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null,
+            "fuzzy_match": false,
+            "value_expansion": false
+        },
+        {
+            "entity": "febre",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "febre",
+                    "metadata": null,
+                    "synonyms": []
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "tosse",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "tosse",
+                    "metadata": null,
+                    "synonyms": []
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "perda_de_peso",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "perda de peso",
+                    "metadata": null,
+                    "synonyms": [
+                        "emagrecimento"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "negacao",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "nao",
+                    "metadata": null,
+                    "synonyms": [
+                        "n",
+                        "nada"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "cicatrizacao_lenta",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "cricatrizacao lenta",
+                    "metadata": null,
+                    "synonyms": [
+                        "demora na cicatrizacao",
+                        "demora na coagulacao"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "atraso_menstrual",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "atraso menstrual",
+                    "metadata": null,
+                    "synonyms": [
+                        "menstruacao atrasada",
+                        "menstruacao nao veio",
+                        "menstruacao nao desceu",
+                        "xico"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null,
+            "fuzzy_match": false,
+            "value_expansion": false
+        },
+        {
+            "entity": "dor_lombar",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "dor lombar",
+                    "metadata": null,
+                    "synonyms": [
+                        "dor nas costas"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "vomito",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "vomito",
+                    "metadata": null,
+                    "synonyms": [
+                        "jucar"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null,
+            "fuzzy_match": false,
+            "value_expansion": false
+        },
+        {
+            "entity": "enjoo",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "enjoo",
+                    "metadata": null,
+                    "synonyms": [
+                        "embrulhando"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null,
+            "fuzzy_match": false,
+            "value_expansion": false
+        },
+        {
+            "entity": "sangue_na_urina",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "sangue na urina",
+                    "metadata": null,
+                    "synonyms": []
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "dor_no_corpo",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "dor no corpo",
+                    "metadata": null,
+                    "synonyms": []
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "dor_nos_olhos",
+            "values": [],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "dor_no_abdomen",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "dor no abdomen",
+                    "metadata": null,
+                    "synonyms": [
+                        "dor na barriga"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "urina",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "urina",
+                    "metadata": null,
+                    "synonyms": [
+                        "xixi",
+                        "mijo",
+                        "mijar"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "dor_de_cabeca",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "dor de cabeca",
+                    "metadata": null,
+                    "synonyms": [
+                        "enxaqueca"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "mancha_na_pele",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "mancha na pele",
+                    "metadata": null,
+                    "synonyms": []
+                }
+            ],
+            "metadata": null,
+            "description": null
+        },
+        {
+            "entity": "sonolencia",
+            "values": [
+                {
+                    "type": "synonyms",
+                    "value": "sonolencia",
+                    "metadata": null,
+                    "synonyms": [
+                        "sono",
+                        "dormir",
+                        "pestana"
+                    ]
+                }
+            ],
+            "metadata": null,
+            "description": null,
+            "fuzzy_match": false,
+            "value_expansion": false
+        }
+    ],
     "language": "pt-br",
     "metadata": {
         "api_version": {
@@ -773,83 +461,103 @@
     "dialog_nodes": [
         {
             "type": "standard",
-            "title": "Trombose",
+            "title": "Gastrite",
             "output": {
                 "text": {
                     "values": [
-                        "Sinal de trombose... =( Vá a um médico mais proximo"
+                        "Gastrite"
                     ],
                     "selection_policy": "sequential"
                 }
             },
-            "parent": "node_1_1527359595756",
+            "parent": "node_6_1527374766501",
             "context": null,
             "metadata": {},
             "next_step": null,
-            "conditions": "#trombose",
+            "conditions": "@confirmacao",
             "description": null,
-            "dialog_node": "node_4_1527360375257",
-            "previous_sibling": "node_3_1527360227851"
+            "dialog_node": "node_7_1527374863611",
+            "previous_sibling": null
         },
         {
             "type": "standard",
-            "title": "Febre amarela",
+            "title": "Gastrite",
             "output": {
                 "text": {
                     "values": [
-                        "Febre amarela, vá ao medico para melhor diagnóstico!"
+                        "Gastrite"
                     ],
                     "selection_policy": "sequential"
                 }
             },
-            "parent": "node_1_1527359595756",
+            "parent": "node_33_1527380904394",
             "context": null,
             "metadata": {},
             "next_step": null,
-            "conditions": "#febreamarela",
+            "conditions": "@negacao",
             "description": null,
-            "dialog_node": "node_6_1527361252368",
-            "previous_sibling": "node_5_1527360632016"
+            "dialog_node": "node_35_1527380954776",
+            "previous_sibling": "node_34_1527380923484"
         },
         {
             "type": "standard",
-            "title": "Diabetes",
+            "title": "Sinusite",
             "output": {
                 "text": {
                     "values": [
-                        "Procure um médico e solicite exames para verificar a glicose.. pode ser diabetes!"
+                        "Sinusite"
                     ],
                     "selection_policy": "sequential"
                 }
             },
-            "parent": "node_1_1527359595756",
+            "parent": "node_33_1527380904394",
             "context": null,
             "metadata": {},
             "next_step": null,
-            "conditions": "#diabetes",
+            "conditions": "@confirmacao",
             "description": null,
-            "dialog_node": "node_5_1527360632016",
-            "previous_sibling": "node_4_1527360375257"
+            "dialog_node": "node_34_1527380923484",
+            "previous_sibling": null
         },
         {
             "type": "standard",
-            "title": "Pressao alta",
+            "title": "Dor lombar",
             "output": {
                 "text": {
                     "values": [
-                        "Pode ser pressão alta. Não espere mais, vá a um médico!"
+                        "Sente dor lombar?"
                     ],
                     "selection_policy": "sequential"
                 }
             },
-            "parent": "node_1_1527359595756",
+            "parent": "node_4_1527377890861",
             "context": null,
             "metadata": {},
             "next_step": null,
-            "conditions": "#pressaoalta",
+            "conditions": "@confirmacao",
             "description": null,
-            "dialog_node": "node_7_1527361475675",
-            "previous_sibling": "node_6_1527361252368"
+            "dialog_node": "node_5_1527377961048",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Ardencia ao urinar",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente ardência ao urinar?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_23_1527380221171",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_25_1527380316174",
+            "previous_sibling": "node_24_1527380295635"
         },
         {
             "type": "standard",
@@ -857,47 +565,752 @@
             "output": {
                 "text": {
                     "values": [
-                        "Parabéns mamãe! Provavelmente você está gravida, faça exame de sangue para ter o diagnóstico completo!"
+                        "Gravidez"
                     ],
                     "selection_policy": "sequential"
                 }
             },
-            "parent": "node_1_1527359595756",
+            "parent": "node_23_1527380221171",
             "context": null,
             "metadata": {},
             "next_step": null,
-            "conditions": "#gravidez",
+            "conditions": "@confirmacao",
             "description": null,
-            "dialog_node": "node_3_1527360227851",
-            "previous_sibling": "node_2_1527360022809"
-        },
-        {
-            "type": "standard",
-            "title": "Virose",
-            "output": {
-                "text": {
-                    "values": [
-                        "Isso é uma virose, daqui 3 dias você melhora! Se não melhorar vá a um médico!"
-                    ],
-                    "selection_policy": "sequential"
-                }
-            },
-            "parent": "node_1_1527359595756",
-            "context": null,
-            "metadata": {},
-            "next_step": null,
-            "conditions": "#virose",
-            "description": null,
-            "dialog_node": "node_2_1527360022809",
+            "dialog_node": "node_24_1527380295635",
             "previous_sibling": null
         },
         {
             "type": "standard",
-            "title": "Casos",
+            "title": "Urina com frequência",
             "output": {
                 "text": {
                     "values": [
-                        "Quais são os sintomas?"
+                        "Urina com frequência?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527377562450",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_4_1527377890861",
+            "previous_sibling": "node_3_1527377676076"
+        },
+        {
+            "type": "standard",
+            "title": "Diabetes",
+            "output": {
+                "text": {
+                    "values": [
+                        "Diabetes"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_1_1527377562450",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_3_1527377676076",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Tosse",
+            "output": {
+                "text": {
+                    "values": [
+                        "Possui tosse?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_14_1527379148305",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_29_1527380712009",
+            "previous_sibling": "node_15_1527379182455"
+        },
+        {
+            "type": "standard",
+            "title": "Dengue",
+            "output": {
+                "text": {
+                    "values": [
+                        "Dengue"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_14_1527379148305",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_15_1527379182455",
+            "previous_sibling": null
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "O que seu paciente está sentindo?"
+                    ]
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "disabled": true,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "$iniciou",
+            "description": null,
+            "dialog_node": "node_37_1527381357399",
+            "previous_sibling": "node_36_1527381335699"
+        },
+        {
+            "type": "standard",
+            "title": "Dor de cabeça",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente dor nos olhos?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@dor_de_cabeca",
+            "description": null,
+            "dialog_node": "node_31_1527380857267",
+            "previous_sibling": "node_23_1527380221171"
+        },
+        {
+            "type": "standard",
+            "title": "Atraso menstrual",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente enjoo?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@atraso_menstrual",
+            "description": null,
+            "dialog_node": "node_17_1527379407777",
+            "previous_sibling": "node_14_1527379148305"
+        },
+        {
+            "type": "standard",
+            "title": "Dor no corpo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Dengue"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@dor_no_corpo",
+            "description": null,
+            "dialog_node": "node_39_1527382216282",
+            "previous_sibling": "node_31_1527380857267"
+        },
+        {
+            "type": "response_condition",
+            "title": null,
+            "output": {
+                "text": {
+                    "values": [
+                        "Olá, bem vindo ao Dr. Amigo! O que seu paciente está sentindo?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "disabled": true,
+            "metadata": {},
+            "next_step": null,
+            "conditions": null,
+            "description": null,
+            "dialog_node": "node_36_1527381335699",
+            "previous_sibling": "node_39_1527382216282"
+        },
+        {
+            "type": "standard",
+            "title": "Febre",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente dos nos olhos?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@febre",
+            "description": null,
+            "dialog_node": "node_14_1527379148305",
+            "previous_sibling": "node_10_1527378758451"
+        },
+        {
+            "type": "standard",
+            "title": "Sangue na urina",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente ardência ao urinar?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@sangue_na_urina",
+            "description": null,
+            "dialog_node": "node_20_1527379718408",
+            "previous_sibling": "node_17_1527379407777"
+        },
+        {
+            "type": "standard",
+            "title": "Tosse",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente falta de ar?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@tosse",
+            "description": null,
+            "dialog_node": "node_8_1527378484326",
+            "previous_sibling": "node_2_1527371227689"
+        },
+        {
+            "type": "standard",
+            "title": "Urina com frequência",
+            "output": {
+                "text": {
+                    "values": [
+                        "Possui manchas na pele?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@urina",
+            "description": null,
+            "dialog_node": "node_23_1527380221171",
+            "previous_sibling": "node_20_1527379718408"
+        },
+        {
+            "type": "standard",
+            "title": "Mancha na pele",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente dor nos olhos?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@mancha_na_pele",
+            "description": null,
+            "dialog_node": "node_10_1527378758451",
+            "previous_sibling": "node_8_1527378484326"
+        },
+        {
+            "type": "standard",
+            "title": "Enjoo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente dor de cabeça?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "Bem-vindo",
+            "context": null,
+            "metadata": {
+                "fallback": "leave"
+            },
+            "next_step": null,
+            "conditions": "@enjoo",
+            "description": null,
+            "dialog_node": "node_2_1527371227689",
+            "digress_out": "allow_all",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Tosse",
+            "output": {
+                "text": {
+                    "values": [
+                        "Possui tosse?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_31_1527380857267",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_33_1527380904394",
+            "previous_sibling": "node_32_1527380876676"
+        },
+        {
+            "type": "standard",
+            "title": "Dengue",
+            "output": {
+                "text": {
+                    "values": [
+                        "Dengue"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_31_1527380857267",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_32_1527380876676",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Gravidez",
+            "output": {
+                "text": {
+                    "values": [
+                        "Gravidez"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_5_1527377961048",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_7_1527378317157",
+            "previous_sibling": "node_6_1527378289249"
+        },
+        {
+            "type": "standard",
+            "title": "Infecção urinária",
+            "output": {
+                "text": {
+                    "values": [
+                        "Infecção urinária"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_5_1527377961048",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_6_1527378289249",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Dor nos olhos",
+            "output": {
+                "text": {
+                    "values": [
+                        "Dengue"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_10_1527378758451",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_11_1527378817035",
+            "previous_sibling": "node_13_1527378880576"
+        },
+        {
+            "type": "standard",
+            "title": "Gravidez",
+            "output": {
+                "text": {
+                    "values": [
+                        "Gravidez"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_10_1527378758451",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_13_1527378880576",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Gravidez",
+            "output": {
+                "text": {
+                    "values": [
+                        "Gravidez"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_17_1527379407777",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_18_1527379440947",
+            "previous_sibling": null
+        },
+        {
+            "type": "slot",
+            "title": null,
+            "output": null,
+            "parent": "node_2_1527371227689",
+            "context": null,
+            "metadata": null,
+            "next_step": null,
+            "conditions": null,
+            "description": null,
+            "dialog_node": "slot_3_1527373783254",
+            "previous_sibling": "node_1_1527377562450"
+        },
+        {
+            "type": "standard",
+            "title": "Perda de peso",
+            "output": {
+                "text": {
+                    "values": [
+                        "Houve perda de peso ?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1527371227689",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_1_1527377562450",
+            "previous_sibling": "node_8_1527375005489"
+        },
+        {
+            "type": "standard",
+            "title": "Dor olhos",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sente dor nos olhos?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_2_1527371227689",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_8_1527375005489",
+            "previous_sibling": null
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": {},
+            "parent": "slot_3_1527373783254",
+            "context": null,
+            "metadata": null,
+            "next_step": null,
+            "conditions": null,
+            "event_name": "focus",
+            "description": null,
+            "dialog_node": "handler_5_1527373783254",
+            "previous_sibling": "handler_4_1527373783254"
+        },
+        {
+            "type": "event_handler",
+            "title": null,
+            "output": null,
+            "parent": "slot_3_1527373783254",
+            "context": null,
+            "metadata": null,
+            "next_step": null,
+            "conditions": null,
+            "event_name": "input",
+            "description": null,
+            "dialog_node": "handler_4_1527373783254",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Pedra nos rins",
+            "output": {
+                "text": {
+                    "values": [
+                        "Pedra nos rins"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_20_1527379718408",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_22_1527379983092",
+            "previous_sibling": "node_21_1527379951395"
+        },
+        {
+            "type": "standard",
+            "title": "Infecção urinária",
+            "output": {
+                "text": {
+                    "values": [
+                        "Infecção urinária"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_20_1527379718408",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_21_1527379951395",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Pedra nos rins",
+            "output": {
+                "text": {
+                    "values": [
+                        "Pedra nos rins"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_25_1527380316174",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_27_1527380382876",
+            "previous_sibling": "node_26_1527380360708"
+        },
+        {
+            "type": "standard",
+            "title": "Infecção urinária",
+            "output": {
+                "text": {
+                    "values": [
+                        "Infecção urinária"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_25_1527380316174",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_26_1527380360708",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Refluxo",
+            "output": {
+                "text": {
+                    "values": [
+                        "Possui refluxo?"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_8_1527375005489",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_6_1527374766501",
+            "previous_sibling": "node_9_1527375873398"
+        },
+        {
+            "type": "standard",
+            "title": "Dengue",
+            "output": {
+                "text": {
+                    "values": [
+                        "Dengue"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_8_1527375005489",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_9_1527375873398",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Sinusite",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sinusite"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_29_1527380712009",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_30_1527380772054",
+            "previous_sibling": "node_16_1527379207159"
+        },
+        {
+            "type": "standard",
+            "title": "Infecção urinária",
+            "output": {
+                "text": {
+                    "values": [
+                        "Infecção urinária"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_29_1527380712009",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_16_1527379207159",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Sinusite",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sinusite"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_8_1527378484326",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@negacao",
+            "description": null,
+            "dialog_node": "node_28_1527380615863",
+            "previous_sibling": "node_9_1527378575379"
+        },
+        {
+            "type": "standard",
+            "title": "Falta de ar",
+            "output": {
+                "text": {
+                    "values": [
+                        "Asma"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": "node_8_1527378484326",
+            "context": null,
+            "metadata": {},
+            "next_step": null,
+            "conditions": "@confirmacao",
+            "description": null,
+            "dialog_node": "node_9_1527378575379",
+            "previous_sibling": null
+        },
+        {
+            "type": "standard",
+            "title": "Despedida",
+            "output": {
+                "text": {
+                    "values": [
+                        "Volte sempre! ;)"
                     ],
                     "selection_policy": "sequential"
                 }
@@ -906,9 +1319,33 @@
             "context": null,
             "metadata": {},
             "next_step": null,
-            "conditions": "#casos",
+            "conditions": "#despedida",
             "description": null,
-            "dialog_node": "node_1_1527359595756",
+            "dialog_node": "node_38_1527381679679",
+            "previous_sibling": "node_11_1527375941305"
+        },
+        {
+            "type": "standard",
+            "title": "Não encontrado",
+            "output": {
+                "text": {
+                    "values": [
+                        "Sintoma não encontrada no repositório"
+                    ],
+                    "selection_policy": "sequential"
+                }
+            },
+            "parent": null,
+            "context": null,
+            "metadata": {},
+            "next_step": {
+                "behavior": "jump_to",
+                "selector": "user_input",
+                "dialog_node": "Bem-vindo"
+            },
+            "conditions": null,
+            "description": null,
+            "dialog_node": "node_11_1527375941305",
             "previous_sibling": "Bem-vindo"
         },
         {
@@ -918,8 +1355,7 @@
                 "text": {
                     "values": [
                         "Eu não entendi. Você pode tentar reformular a frase.",
-                        "Você pode reformular sua afirmação? Eu não estou entendendo.",
-                        "Eu não entendi o sentido."
+                        "Este caso é novo para mim. Pode tentar novamente?"
                     ],
                     "selection_policy": "sequential"
                 }
@@ -927,11 +1363,15 @@
             "parent": null,
             "context": null,
             "metadata": {},
-            "next_step": null,
+            "next_step": {
+                "behavior": "jump_to",
+                "selector": "body",
+                "dialog_node": "Bem-vindo"
+            },
             "conditions": "anything_else",
             "description": null,
             "dialog_node": "Em outros casos",
-            "previous_sibling": "node_1_1527359595756"
+            "previous_sibling": "node_38_1527381679679"
         },
         {
             "type": "standard",
@@ -939,18 +1379,25 @@
             "output": {
                 "text": {
                     "values": [
-                        "Olá, bem vindo ao Dr. Amigo! Como posso ajudar?"
+                        "Olá, bem vindo ao Dr. Amigo! O que seu paciente está sentindo?",
+                        "O que seu paciente está sentindo?"
                     ],
                     "selection_policy": "sequential"
                 }
             },
             "parent": null,
             "context": null,
-            "metadata": {},
+            "metadata": {
+                "_customization": {
+                    "mcr": false
+                }
+            },
             "next_step": null,
             "conditions": "welcome",
+            "digress_in": "does_not_return",
             "description": null,
             "dialog_node": "Bem-vindo",
+            "digress_out": "allow_all",
             "previous_sibling": null
         }
     ],
