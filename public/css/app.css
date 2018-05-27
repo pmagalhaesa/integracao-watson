@@ -16,10 +16,15 @@ nav {
   left: 10%;
   border-radius: 12px 12px 0px 0px;
 }
-
+.chip{
+  width: 100%;
+}
 @media (min-width: 960px){
   .chat{
     left: 76%;
+  }
+  .chip{
+    width: auto;
   }
 }
 
@@ -89,6 +94,7 @@ nav {
 body {
   background: linear-gradient(135deg, #62b1c1 0%, #62b1c1 33%, #ba83bf 66%, #ba83bf 100%);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .chat_msg{
