@@ -17,16 +17,16 @@ nav {
   border-radius: 12px 12px 0px 0px;
 }
 .chip{
-  /* width: 100%; */
-  width: auto;
+  width: 55%;
   height: 52px !important;
 }
 @media (min-width: 960px){
   .chat{
     left: 76%;
   }
-  /* .chip{ */
-  /* } */
+  .chip{
+    width: auto;
+  }
 }
 
 .chat .chat_head {
